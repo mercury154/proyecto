@@ -1,0 +1,52 @@
+body{
+	background-image: url('http://www.fondosblackberry.com/user-content/uploads/wall/o/20/De_Freu_Wallpaper_1.jpg');
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+#cuerpo{
+	margin-top:20px; 
+	margin: 0px auto;
+	width:800px;
+	height:900px;
+	background-color: #222;
+	box-shadow: 1px 1px 10px rgba(225,225,225,0.8);
+	border-radius:10px;
+	opacity: 0.8;
+
+}
+header img{
+	width: 800px;
+	border-radius:10px 10px 0px 0px;
+}
+#menu{
+	margin-top:-21px;
+	background-color: #000;
+	height:35px;
+}
+.nav{
+	background-image:url('img/video1.png');
+	height:35px;
+}
+.nav li{
+
+	margin-top:5px;
+	list-style: none;
+	display:inline-block;
+}
+.nav li a{
+	vertical-align: middle;
+	font-family: calibri;
+	padding:5px 10px;
+	text-decoration:none; 
+	color:#0e5c90;
+	font-weight: bold;
+}
+.nav li a:hover{
+	-webkit-transition:all 0.3s ease-in;
+	-o-transition:all 0.3s ease-in;
+	-mz-transition:all 0.3s ease-in;
+	-webkit-transition:all 0.3s ease-in;
+	text-shadow:0px 0px 10px rgba(225,225,225,0.8);
+	font-size:1.2em;
+}
